@@ -15,7 +15,7 @@ const WorkExperience = () => {
       position: "Front End Developer",
       des:
         "Here my main focus was to create the landing page for one of the web application which is similar to Healthify me application and to create in a responsive way for all the big and small screens.",
-      year: "Sep: 2022- Current",
+      year: "Sep: 2022- Apr: 2023",
 
       techskills: [
         {
@@ -79,11 +79,7 @@ const WorkExperience = () => {
     },
   ];
 
-  const colors = [
-    "#800000",
-    "#FF8042",
-    "#001CCE",
-  ];
+  const colors = ["#800000", "#FF8042", "#001CCE"];
 
   return (
     <div className="container workexperience-section" id="workexperience">

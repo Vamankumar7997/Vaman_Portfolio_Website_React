@@ -5,8 +5,32 @@ import "./Project.css";
 const Project = () => {
   const data = [
     {
+      name: "React Personal Portfolio",
+      des:
+        "Built a personal portfolio, which shows all the Bio-data about me like my experiences, projects which I have done, and my educational background and my social media profiles to connect me for one on one, and for every project, source code will be attached to the GitHub profile.",
+      projectlink: " https://github.com/Vamankumar7997/Personal_Website_React",
+      techused: [
+        {
+          techname: "React Js",
+        },
+        {
+          techname: "JavaScript",
+        },
+        {
+          techname: "HTML",
+        },
+        {
+          techname: "CSS",
+        },
+        {
+          techname: "Material-UI",
+        },
+      ],
+    },
+    {
       name: "Photo Sharing App",
-      des: "Built a photo-sharing application where users can create, like, and share their posts.Built the backend using NodeJS to serve the APIs. Connected the frontend to the backend using fetch API to get and post the data ",
+      des:
+        "Built a photo-sharing application where users can create, like, and share their posts.Built the backend using NodeJS to serve the APIs. Connected the frontend to the backend using fetch API to get and post the data ",
       projectlink: " https://github.com/Vamankumar7997/instaclone-project",
       techused: [
         {
@@ -32,7 +56,8 @@ const Project = () => {
 
     {
       name: "Sign Up Page",
-      des: "Built the sign-up page application using JavaScript functions and Worked on the database schema design for mongoose ",
+      des:
+        "Built the sign-up page application using JavaScript functions and Worked on the database schema design for mongoose ",
       projectlink: "https://github.com/Vamankumar7997/Signup-page-using-MERN",
       techused: [
         {
@@ -52,8 +77,10 @@ const Project = () => {
 
     {
       name: "Weather Application using React",
-      des: "Worked on React and JavaScript to create Weather application. Worked on life cycle hooks and fetch API to get the data to render on the front end. ",
-      projectlink: " https://github.com/Vamankumar7997/React-weather-application",
+      des:
+        "Worked on React and JavaScript to create Weather application. Worked on life cycle hooks and fetch API to get the data to render on the front end. ",
+      projectlink:
+        " https://github.com/Vamankumar7997/React-weather-application",
       techused: [
         {
           techname: "React Js",
@@ -72,7 +99,8 @@ const Project = () => {
 
     {
       name: "Creating data pages using React",
-      des: "Creating multiple objects to render on the document using React and JSX. ",
+      des:
+        "Creating multiple objects to render on the document using React and JSX. ",
       projectlink: "https://github.com/Vamankumar7997/React_Assignments/pull/4",
       techused: [
         {
@@ -89,11 +117,13 @@ const Project = () => {
         },
       ],
     },
-    
+
     {
       name: "Todo App",
-      des: "Use JavaScript to add todos and delete them on click. It fetches Todo items from an actual API using the GET HTTP method. ",
-      projectlink: "https://github.com/Vamankumar7997/Javascript-Assignments/pull/9",
+      des:
+        "Use JavaScript to add todos and delete them on click. It fetches Todo items from an actual API using the GET HTTP method. ",
+      projectlink:
+        "https://github.com/Vamankumar7997/Javascript-Assignments/pull/9",
       techused: [
         {
           techname: "Javascript",
@@ -109,7 +139,6 @@ const Project = () => {
         },
       ],
     },
-
   ];
 
   return (
@@ -122,9 +151,7 @@ const Project = () => {
       <div className="row">
         {data.map((item, index) => (
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>
-
-            <ProjectList  {...item} />
-           
+            <ProjectList {...item} />
           </div>
         ))}
       </div>

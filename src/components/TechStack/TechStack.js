@@ -17,7 +17,7 @@ const TechStack = () => {
       name: "Javascript",
     },
     {
-      name: "Python",
+      name: "Tailwind.css",
     },
     {
       name: "MongoDB",

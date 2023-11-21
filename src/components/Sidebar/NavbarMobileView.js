@@ -105,7 +105,7 @@ const NavbarMobileView = ({ theme, changeTheme }) => {
                 <FcTodoList size={25} /> Projects
               </Link>
             </li>
-            
+
             <li className="nav-item-mobileview">
               <Link
                 to="testimonial"
@@ -131,12 +131,8 @@ const NavbarMobileView = ({ theme, changeTheme }) => {
             </li>
 
             <li className="nav-item-mobileview">
-
-              <Switch onChange={changeTheme} checked={theme==="light"}/>
-              
+              <Switch onChange={changeTheme} checked={theme === "light"} />
             </li>
-
-
           </ul>
         </div>
       ) : null}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import MyResume from "./myresume.pdf";
+import MyResume from "./FrontendDevVamanResume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import Fade from "react-reveal/Fade";
 
@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const Home = ({ theme, changeTheme }) => {
   return (
-    <div className="container-fluid home" id="home">
+    <div className="container home" id="home">
       <div className="theme-change" onClick={changeTheme}>
         {theme === "light" ? (
           <p>
@@ -31,7 +31,7 @@ const Home = ({ theme, changeTheme }) => {
                 strings: [
                   "Front End  Developer",
                   "MERN Stack Developer",
-                  "Web Developer"
+                  "Web Developer",
                 ],
                 autoStart: true,
                 loop: true,
