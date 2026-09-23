@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Browser Demo Deployment
+
+This project is configured for a production React build on Netlify.
+
+- Build command: `npm run build`
+- Publish directory: `build`
+- The browser portfolio itself does not require the Express email server to render.
+- The existing contact form still requires the backend `/sendmail` endpoint and its SendGrid environment variable to send emails.
+
+### Local demo
+
+```bash
+npm install
+npm start
+```
+
+Then open http://localhost:3000.
